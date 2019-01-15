@@ -1,0 +1,22 @@
+{
+    "name": "kdesignbrasil/img-upload",
+    "description": "Upload de imagens php",
+    "keywords": ["upload"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Leandro dos Anjos",
+            "email": "ilibertsites@gmail.com"
+        }
+    ],
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+		"php": ">=7.0"
+    }, 
+    "autoload": {
+        "psr-4": {
+            "UploadLeandro\\": "src/"
+        }
+    }
+}
